@@ -135,7 +135,7 @@ d3.csv("assets/data/data.csv", function(err, healthData) {
     .attr("y", 20)
     .attr("value", "age") 
     .classed("axis-text", true)
-    .text("Age");
+    .text("Median Age");
 
   // append y axis
   chartGroup.append("text")
